@@ -21,6 +21,6 @@ fn main() {
 
     println!(
         "Measured difference (in ms): {}",
-        dynamic_plus_time - static_plus_time
+        (dynamic_plus_time as i128) - (static_plus_time as i128)
     );
 }
